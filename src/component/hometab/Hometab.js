@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Tabs, Tab} from 'react-bootstrap';
 import Dailyreport from '../dailyReport/Dailyreport';
-
+import PeriodDropdown from '../periodDropdown/PeriodDropdown';
 
 class Hometab extends Component {
     render() {
@@ -11,6 +11,7 @@ class Hometab extends Component {
                     Test case manage
                 </Tab>
                 <Tab eventKey={2} title="Daily Reports">
+                    <PeriodDropdown/>
                     <Dailyreport/>
                 </Tab>
 
