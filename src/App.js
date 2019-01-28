@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import Aside from './component/aside/Aside';
+import Hometab from './component/hometab/Hometab';
 
 class App extends Component {
   render() {
@@ -10,7 +11,9 @@ class App extends Component {
         <div>
 
           <Header></Header>
-          <Aside/></div>
+          <Hometab/>
+          {/*<Aside/>*/}
+        </div>
 
 
     );
